@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{BE90BC85-F606-4E7D-A7D6-F850A04C0064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{55541329-AB57-4A98-908C-6138722F4A3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{E5421A34-CB45-45B6-9580-AB4A372EBA30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{E54A8ECA-BB20-4F51-B3CE-3D3FAED9C1B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{39947CEF-37B3-4780-B0E4-BFC65998E540}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultility", "Ultility\Ultility.csproj", "{298580D8-6E9E-4EC3-A7BA-BB09DD48E3B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE90BC85-F606-4E7D-A7D6-F850A04C0064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE90BC85-F606-4E7D-A7D6-F850A04C0064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE90BC85-F606-4E7D-A7D6-F850A04C0064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE90BC85-F606-4E7D-A7D6-F850A04C0064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55541329-AB57-4A98-908C-6138722F4A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55541329-AB57-4A98-908C-6138722F4A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55541329-AB57-4A98-908C-6138722F4A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55541329-AB57-4A98-908C-6138722F4A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5421A34-CB45-45B6-9580-AB4A372EBA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5421A34-CB45-45B6-9580-AB4A372EBA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5421A34-CB45-45B6-9580-AB4A372EBA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5421A34-CB45-45B6-9580-AB4A372EBA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54A8ECA-BB20-4F51-B3CE-3D3FAED9C1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54A8ECA-BB20-4F51-B3CE-3D3FAED9C1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54A8ECA-BB20-4F51-B3CE-3D3FAED9C1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54A8ECA-BB20-4F51-B3CE-3D3FAED9C1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39947CEF-37B3-4780-B0E4-BFC65998E540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39947CEF-37B3-4780-B0E4-BFC65998E540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39947CEF-37B3-4780-B0E4-BFC65998E540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39947CEF-37B3-4780-B0E4-BFC65998E540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298580D8-6E9E-4EC3-A7BA-BB09DD48E3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298580D8-6E9E-4EC3-A7BA-BB09DD48E3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298580D8-6E9E-4EC3-A7BA-BB09DD48E3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298580D8-6E9E-4EC3-A7BA-BB09DD48E3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C798022-A894-444F-BE8F-BD49B4C5189F}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN2019 - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
