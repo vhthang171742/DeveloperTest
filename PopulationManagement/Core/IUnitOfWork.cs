@@ -15,12 +15,12 @@ namespace Core
         /// <summary>
         /// Gets actual repository.
         /// </summary>
-        BaseRepository<Actual> ActualRepository { get; }
+        IBaseRepository<Actual> ActualRepository { get; }
 
         /// <summary>
         /// Gets estimate repository.
         /// </summary>
-        EstimateRepository EstimateRepository { get; }
+        IEstimateRepository EstimateRepository { get; }
 
         /// <summary>
         /// Save changes.

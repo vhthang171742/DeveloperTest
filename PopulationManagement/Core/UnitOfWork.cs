@@ -16,8 +16,8 @@ namespace Core
     {
         private bool disposed = false;
         private PopulationDbContext context;
-        private BaseRepository<Actual> actualRepository;
-        private EstimateRepository estimateRepository;
+        private IBaseRepository<Actual> actualRepository;
+        private IEstimateRepository estimateRepository;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="UnitOfWork"/> class.
@@ -31,7 +31,7 @@ namespace Core
         /// <summary>
         /// Gets actual repository.
         /// </summary>
-        public BaseRepository<Actual> ActualRepository
+        public IBaseRepository<Actual> ActualRepository
         {
             get
             {
@@ -47,7 +47,7 @@ namespace Core
         /// <summary>
         /// Gets estimate repository.
         /// </summary>
-        public EstimateRepository EstimateRepository
+        public IEstimateRepository EstimateRepository
         {
             get
             {

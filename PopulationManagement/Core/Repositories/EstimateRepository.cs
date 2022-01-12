@@ -12,7 +12,7 @@ namespace Core.Repositories
     /// <summary>
     /// Estimate repository.
     /// </summary>
-    public class EstimateRepository : BaseRepository<Estimate>
+    public class EstimateRepository : BaseRepository<Estimate>, IEstimateRepository
     {
         private PopulationDbContext context;
         private DbSet<Estimate> dbSet;

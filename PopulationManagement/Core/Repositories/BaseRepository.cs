@@ -15,7 +15,7 @@ namespace Core.Repositories
     /// Generic repository.
     /// </summary>
     /// <typeparam name="T">Generic type.</typeparam>
-    public class BaseRepository<T>
+    public class BaseRepository<T> : IBaseRepository<T>
         where T : class
     {
         private PopulationDbContext context;
